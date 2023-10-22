@@ -9,11 +9,14 @@
 .horizontal-links {
     display: flex; /* Use flexbox to align items horizontally */
     justify-content: center; /* Center the items horizontally */
-    gap: 15px; /* Spacing between each link */
+    gap: 20px; /* Spacing between each link */
 }
 
 .horizontal-links li {
     list-style-type: none; /* Remove bullet points */
+}
+.horizontal-links li a.icon {
+    font-size: 25px; /* adjust this value to your liking */
 }
 
 html, body, div, span, applet, object,
