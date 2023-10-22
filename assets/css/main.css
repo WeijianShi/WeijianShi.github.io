@@ -6,6 +6,15 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.horizontal-links {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items horizontally */
+    gap: 15px; /* Spacing between each link */
+}
+
+.horizontal-links li {
+    list-style-type: none; /* Remove bullet points */
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
