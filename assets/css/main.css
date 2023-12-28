@@ -3119,6 +3119,7 @@ input, select, textarea {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
+			position: fixed;
 			height: 3em;
 			letter-spacing: 0.1em;
 			line-height: 3em;
@@ -3182,7 +3183,8 @@ input, select, textarea {
 
 			#header.alt h1 {
 				opacity: 0;
-				visibility: hidden;
+				visibility: visible;
+				position: fixed;
 			}
 
 		@media screen and (max-width: 736px) {
